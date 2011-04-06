@@ -1,0 +1,44 @@
+﻿
+Yoda Client v1.0.0
+Author:		Ben Stephens
+License:	GPL
+
+Yoda Client is a simplified FTP for checking whether files exist on a hardcoded
+FTP host. It provides read access only and does not currently allow
+files to be downloaded.  It's intended only for those users who need to see
+whether a file exists or not.
+
+Requirements:
+*  Microsoft .NET Framework 2.0
+*  edtFTPnet/Free - Enterprise Distributed Technologies - Licensed under LGPL
+
+Installation Instructions:
+   Simply copy the executable and edtFTPnet.dll to any Directory and run the
+   executable.
+
+Possible Improvements:
+*  Handle server side disconnections better by automatically reconnecting upon
+   user input or providing the user with a connect/disconnect option.
+*  Change the path display label to a textbox to allow path changes via 
+   keyboard input.
+
+Known Bugs:
+*  Once the FTP connection has been lost the program must be restarted to 
+   reconnect.
+   
+Credits:
+*  Big thanks to Enterprise Data Technologies for providing eftFTP/Free under
+   the LGPL. This project would have been much more than a bit of fun on the
+   weekend had there not been such a good API available with a suitable license.
+   It simply wouldn't have happened at all.
+*  Also thanks to Paul Ingles for posting IconListManager on codeproject.com.
+   His example made implementing icons so much easier even though the code did
+   require a few changes and optimisation, but with no licensing at all I don't
+   think we can complain.
+*  And finally the good people at http://dryicons.com for hosting a great range
+   of icons. The up arrow icon used in this program came from the Aesthetica
+   package using the free license.
+   
+Notes:
+*  Full copies of each of the licenses can be found in the Legal directory.
+   
